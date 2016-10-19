@@ -19,5 +19,11 @@ public class DataAnalysisTest {
 				result.contains("The name of the homecity is big and the participant is 30 or older"));
 
 	}
+	
+	@Test
+	public void testBuildFinalString(){
+//		setResultStringNamesAndAge();
+//		assertEquals(getResultStringNamesAndAge(),);
+	}
 
 }
