@@ -13,6 +13,12 @@ public class GameTest {
 		
 		int i = game.calculateOutPutBasedOnNames("Rafael", "Silva");
 		assertEquals("The result should be 1", i, 1);
+		
+		int j = game.calculateOutPutBasedOnNames("Rafael", "Silvason");
+		assertEquals("The result should be 0", j, 0);
+		
+		int k = game.calculateOutPutBasedOnNames("Rafael", "Silvas");
+		assertEquals("The result should be 2", k, 2);
 	}
 
 }
